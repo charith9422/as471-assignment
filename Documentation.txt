@@ -1,0 +1,37 @@
+Private Key
+Private Key is the secret key used to encrypt and decrypt messages between communicators. 
+It’s a form of symmetric encryption, i.e., the same key is utilized for both encryption and decryption purposes.
+
+Public Key
+SSH public-key authentication relies on asymmetric cryptographic algorithms that generate a pair of 
+separate keys (a key pair), one "private" and the other "public". You keep the private key a secret 
+and store it on the computer you use to connect to the remote system
+
+Why do we need to configure SSH
+SSH, or secure shell, is an encrypted protocol used to administer and communicate with servers. 
+When working with a Linux server, chances are, you will spend most of your time in a terminal session 
+connected to your server through SSH.
+
+While there are a few different ways of logging into an SSH server, in this guide, we’ll focus on setting up SSH keys. SSH keys provide an easy, yet extremely secure way of logging into your server. For this reason, this is the method we recommend for all users.
+
+Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. 
+Containers allow a developer to package up an application with all of the parts it needs, 
+such as libraries and other dependencies, and ship it all out as one package. 
+By doing so, thanks to the container, the developer can rest assured that the application will run on any 
+other Linux machine regardless of any customized settings that machine might have that could differ from the
+ machine used for writing and testing the code.
+
+Git hub link for Jhipster app 
+https://github.com/charith9422/google_cloud_app
+
+What is Continuous Integration?
+Continuous Integration (CI) is a development practice where developers integrate code into a shared repository frequently, preferably several times a day. Each integration can then be verified by an automated build and automated tests. While automated testing is not strictly part of CI it is typically implied.
+One of the key benefits of integrating regularly is that you can detect errors quickly and locate them more easily. 
+As each change introduced is typically small, pinpointing the specific change that introduced a defect can be done quickly.
+In recent years CI has become a best practice for software development and is guided by a set of key principles. 
+Among them are revision control, build automation and automated testing.
+Additionally, Continuous Deployment and Continuous Delivery have developed as best-practices for keeping your 
+application deployable at any point or even pushing your main codebase automatically into production whenever 
+new changes are brought into it. This allows your team to move fast while keeping high quality standards that can be 
+checked automatically.
+
